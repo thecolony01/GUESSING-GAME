@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #f3f9ff, #d9eaff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    width: 350px;
+}
+
+/* Heading styling */
+h1 {
+    color: #4CAF50; 
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+input[type="number"] {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc; 
+    border-radius: 8px;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #45a049; 
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #3e8e41; 
+}
+
+
+#message {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    margin-top: 15px;
+}
+
+
+#attempts {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    input[type="number"] {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
