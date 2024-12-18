@@ -1,1 +1,1 @@
-https://thecolony01.github.io/GUESSING-GAME/
+To play: https://thecolony01.github.io/GUESSING-GAME/
